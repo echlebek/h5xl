@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+python -m h5xl.h5xl "$@"
