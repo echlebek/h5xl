@@ -11,3 +11,5 @@ install: "pip install -r requirements.txt"
 script:
   - nosetests
   - python setup.py cram
+before_install:
+- sudo apt-get install -y libhdf5-serial-dev
