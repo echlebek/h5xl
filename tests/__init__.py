@@ -45,7 +45,7 @@ class TestIO(TestCase):
         w.write(a, "test")
         self.assertEquals(
             fmt_sheet(wb["test"]),
-            [[u"a", u"b", u"c", u"d"], [1, 2.0, 3, 4.0], [2, 3.0, 4, 5.0]]
+            [["a", "b", "c", "d"], [1, 2.0, 3, 4.0], [2, 3.0, 4, 5.0]]
         )
 
 
