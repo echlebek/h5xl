@@ -13,3 +13,4 @@ script:
   - python setup.py cram
 before_install:
 - sudo apt-get install -y libhdf5-serial-dev
+- pip install cram

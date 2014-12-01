@@ -30,5 +30,4 @@ setup(
     install_requires=["cython", "numpy", "h5py", "openpyxl"],
     cmdclass={"cram": TestCram},
     test_suite="tests",
-    test_require=["cram"],
 )
